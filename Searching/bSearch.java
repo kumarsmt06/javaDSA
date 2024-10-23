@@ -1,4 +1,4 @@
-package Searching;
+package searching;
 /***
  * public class bSearch
  * binary search iterative method
@@ -24,5 +24,6 @@ public class bSearch {
         int findx = 5;
         String arrString = ArrayToString(sortedArray);
         System.out.println("index of "+findx+" in sorted array "+ arrString + " is: " + bSearchIterative.bSearch(sortedArray,findx));
+        System.out.println("index of "+findx+" in sorted array "+ arrString + " is: " + bSearchRecursive.bSearch(sortedArray,sortedArray.length-1,0,8));
     }
 }

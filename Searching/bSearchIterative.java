@@ -1,4 +1,4 @@
-package Searching;
+package searching;
 
 public class bSearchIterative {
     /*
@@ -8,7 +8,7 @@ public class bSearchIterative {
     public static int bSearch(int[] arr, int k){
         int high = arr.length - 1;
         int low = 0;
-        
+
         while(low<=high){
             int mid = low + (high-low)/2;
             if(arr[mid]==k){
